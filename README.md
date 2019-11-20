@@ -1,2 +1,2 @@
-# bitcoin-profit-calculator
-A simple bitcoin mining calculator
+# beyondcoin-profit-calculator
+Beyondcoin Mining Profitability Calculator
