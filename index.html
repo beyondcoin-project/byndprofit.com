@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Beyondcoin [BYND] | Mining Calculator</title>
+        <link rel="icon" href="https://cdn.beyondcoin.io/images/icon/favicon.ico" />
+
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Beyondcoin | Mining Calculator" />
+        <meta property="og:description" content="Mining calculator for Beyondcoin."/>
+        <meta property="og:url" content="https://byndprofit.com/" />
+        <meta property="og:site_name" content="Beyondcoin [BYND] |  Mining Calculator" />
+        <meta property="og:image" content="https://byndprofit.com/img/bynd_logo.png" />
+        <meta property="og:image:secure_url" content="https://byndprofit.com/img/bynd_logo.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqi$" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.2.0/dist/MarkerCluster.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.2.0/dist/MarkerCluster.Default.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
         <script src="main.js"></script>
+        
+        <!-- GOOGLE ANALYTICS -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142187073-11"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-142187073-11');
+        </script>
+        <!-- END GOOGLE ANALYTICS -->
     </head>
     <body>
         <div ng-app="app-calculator" ng-controller="mainController" ng-cloak>
