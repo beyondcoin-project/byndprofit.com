@@ -1,0 +1,23 @@
+{
+    "name": "byndprofit.com",
+    "version": "1.0.0",
+    "description": "Beyondcoin mining calculator",
+    "main": "main.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/beyondcoin-project/byndprofit.com.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/beyondcoin-project/byndprofit.com/issues"
+    },
+    "homepage": "https://github.com/beyondcoin-project/byndprofit.com#readme",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
