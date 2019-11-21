@@ -1,2 +1,2 @@
-# beyondcoin-profit-calculator
+# byndprofit.com
 Beyondcoin Mining Profitability Calculator
